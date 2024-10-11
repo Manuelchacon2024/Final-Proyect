@@ -1,13 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
-import LoginSignUp from './Components/LoginSignUp/LoginSignUp';
 
-function App() {
+import {Navbar } from "./navbar";
+import {Carrucel} from "./carrucel";
+
+
+export default function App() {
   return (
     <div>
-     <LoginSignUp/>
+    <Navbar/>
+    <Carrucel/>
+   
     </div>
-  );
+  )
 }
-
-export default App;
