@@ -1,6 +1,7 @@
 
 import {Navbar } from "./navbar";
 import {Carrucel} from "./carrucel";
+import { Footer } from "./Footer1/Footer";
 
 
 export default function App() {
@@ -8,6 +9,7 @@ export default function App() {
     <div>
     <Navbar/>
     <Carrucel/>
+    <Footer/>
    
     </div>
   )
