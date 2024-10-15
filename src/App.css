@@ -36,3 +36,97 @@
     transform: rotate(360deg);
   }
 }
+
+
+.box {
+  background-color: #E6DBC6;
+  height: 120vh;
+}
+
+.container2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  background-color: #f5f5dc;
+}
+
+
+.fondo {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.reservebutton {
+  background-color: #f2f2f2;
+  color: #000;
+  border: 1px solid #808080;
+  border-radius: 7px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: Arial, sans-serif;
+  transition: background-color 0.3s ease;
+}
+
+.reservebutton:hover {
+  background-color: #e6e6e6;
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.container1 {
+  text-align: center;
+}
+
+.claude-monet {
+  background-image: url('https://www.kunstloft.es/wordpress/es_ES/es/wp-content/uploads/2023/08/seerose-flowered-claude-monet-scaled-1-1024x512.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.search {
+  background-color: #E6DBC6;
+  padding: 30px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #024670;
+}
+
+.search-input {
+  margin-top: 10px;
+  padding: 10px;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.popular {
+  padding: 20px;
+}
+
+.popular2{
+  font-size: 20px;
+  color: #024670;
+}
