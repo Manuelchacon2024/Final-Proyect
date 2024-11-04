@@ -6,6 +6,9 @@ import { Eventos } from "./eventos.js";
 import {LoginSignUp} from "./Components/LoginSignUp/LoginSignUp.jsx"
 import { Artistas } from "./Artistas.js";
 import { Galeria } from "./Components/Galeria/Galeria.js";
+import { Ticket } from "./Ticket.js";
+import { Tienda } from "./Tienda/Tienda.js";
+
 
 
 
@@ -23,8 +26,10 @@ export default function App() {
         <Route path="1" element={<Carrucel/>}/>
         <Route path="2" element={<Eventos/>}/>
         <Route path="3" element={<LoginSignUp/>}/>
-        <Route path="4" element={<Artistas/>}/>
+        <Route path="Personajes" element={<Artistas/>}/>
         <Route path="5" element={<Galeria/>}/>
+        <Route path="6" element={<Ticket/>}/>
+        <Route path="7" element={<Tienda/>}/>
         
         
 
