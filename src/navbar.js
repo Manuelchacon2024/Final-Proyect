@@ -53,7 +53,7 @@ export function Navbar() {
               </Link>
             </li>
             <li>
-              <Link className="dropdown-item" to="6">
+              <Link className="dropdown-item" to="5">
                Galeria
               </Link>
             </li>
@@ -68,7 +68,7 @@ export function Navbar() {
           </ul>
         </li>
         <li className="nav-item">
-          <Link className="nav-link " to="/4">
+          <Link className="nav-link " to="">
             Acerca de nostros
           </Link>
         </li>
