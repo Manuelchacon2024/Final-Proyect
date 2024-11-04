@@ -1,3 +1,5 @@
+
+
 .container{
     display: flex;
     flex-direction: column;
@@ -8,6 +10,20 @@
     padding-bottom: 30px;
     border-radius: 20px;
 }
+
+.spinner-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000; /* Para asegurarse de que esté encima de otros elementos */
+  }
+  
 
 .header{
     display: flex;
