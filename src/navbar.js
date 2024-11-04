@@ -64,7 +64,7 @@ export function Navbar() {
               </div>
             </div>
             <a href="#" className="loguin-buttom">
-              Loguin
+              Login
             </a>
             <button
               className="navbar-toggler pe-0"
@@ -84,8 +84,8 @@ export function Navbar() {
             className="container d-flex align-items-center justify-content-center fs-1
   text-white flex-colum"
           >
-            <h1>Responsive Navbar</h1>
-            <h2>Bootstrap 5</h2>
+            <h1>COLOR ARTIST BRUSH</h1>
+            <h2></h2>
           </div>
         </section>
         {/*End hero section*/}

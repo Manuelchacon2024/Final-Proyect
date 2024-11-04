@@ -77,7 +77,7 @@ export function Footer () {
         </p>
         <p>
           <i className="fas fa-envelope mr-3" />
-          manuelchacon772@gmail.com
+          colorartistbrush772@gmail.com
         </p>
         <p>
           <i className="fas fa-phone mr-3" />
@@ -90,13 +90,13 @@ export function Footer () {
       </div>
     </div>
     <hr className="mb-4" />
-    <div className="row align-items-center">
+    <div className="row d-flex justify-content-center align-items-center">
       <div className="col-md-7 col-lg-8">
         <p>
           {" "}
           Copyright 2024 All rights reserved by:
           <a href="#" style={{ textDecoration: "none" }}>
-            <strong className="text-warning">Manuel chacón</strong>
+            <strong className="text-warning">Color Artist Brush</strong>
           </a>
         </p>
       </div>
