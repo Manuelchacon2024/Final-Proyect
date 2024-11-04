@@ -13,7 +13,9 @@ export function Eventos() {
               <pre>Hora: 20:00</pre>
               <pre>Precio: $30 USD</pre>
             </p>
+          
             <button className="reservebutton">Reservar Ticket</button>
+            
           </center>
         </div>
 
@@ -80,7 +82,9 @@ export function Eventos() {
               <pre>Hora: 18:00</pre>
               <pre>Precio: $30 USD</pre>
             </p>
+        
             <button className="reservebutton">Reservar Ticket</button>
+           
           </center>
         </div>
       </div>

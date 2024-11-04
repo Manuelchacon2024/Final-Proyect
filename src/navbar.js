@@ -48,8 +48,8 @@ export function Navbar() {
           </a>
           <ul className="dropdown-menu">
             <li>
-              <Link className="dropdown-item" to="4">
-                Artistas
+              <Link className="dropdown-item" to="7">
+                Tienda
               </Link>
             </li>
             <li>
@@ -61,15 +61,15 @@ export function Navbar() {
               <hr className="dropdown-divider" />
             </li>
             <li>
-              <a className="dropdown-item" href="#">
-                Something else here
-              </a>
+              <Link className="dropdown-item" to="Personajes">
+                Artistas
+              </Link>
             </li>
           </ul>
         </li>
         <li className="nav-item">
-          <Link className="nav-link " to="">
-            Acerca de nostros
+          <Link className="nav-link " to="6">
+            Reserva
           </Link>
         </li>
       </ul>
