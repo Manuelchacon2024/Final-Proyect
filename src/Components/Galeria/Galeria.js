@@ -17,12 +17,11 @@ const imageList = [
   { title: "Study of a Martinican Woman", autor: 'Paul Gauguin (1848 - 1903), 1887', description: 'He was most captivated by the Black porteuses he saw on the island.01 These women carried on their heads large baskets of sugar cane and other produce from the plantations to the markets and the harbour of Saint-Pierre, then the capital of the French colony.', src: imagen6 },
 ];
 
-
-function Galeria({ searchTerm }) {
+export function Galeria({ searchTerm = '' }) {
   const filteredImages = imageList.filter((image) =>
-    image.autor.toLowerCase().includes(searchTerm.toLowerCase()) ||
-    image.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-    image.description.toLowerCase().includes(searchTerm.toLowerCase())
+    (image.autor?.toLowerCase().includes(searchTerm.toLowerCase()) || '') ||
+    (image.title?.toLowerCase().includes(searchTerm.toLowerCase()) || '') ||
+    (image.description?.toLowerCase().includes(searchTerm.toLowerCase()) || '')
   );
 
   return (
@@ -44,5 +43,3 @@ function Galeria({ searchTerm }) {
     </div>
   );
 }
-
-export default Galeria;
