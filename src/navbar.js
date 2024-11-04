@@ -27,8 +27,8 @@ export function Navbar() {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <Link className="nav-link active" aria-current="page" to="1">
-            Inicio
+          <Link className="nav-link active" aria-current="page" to="/1">
+            Home
           </Link>
         </li>
         <li className="nav-item">
@@ -48,14 +48,14 @@ export function Navbar() {
           </a>
           <ul className="dropdown-menu">
             <li>
-              <Link className="dropdown-item" to="5">
-                Action
+              <Link className="dropdown-item" to="4">
+                Artistas
               </Link>
             </li>
             <li>
-              <a className="dropdown-item" href="#">
-                Another action
-              </a>
+              <Link className="dropdown-item" to="6">
+               Galeria
+              </Link>
             </li>
             <li>
               <hr className="dropdown-divider" />
