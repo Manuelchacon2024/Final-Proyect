@@ -1,95 +1,94 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import "./style.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js"
+import { Link } from "react-router-dom"
+
 
 export function Navbar() {
 
   return (
 
     <div>
-      <>
-        <nav className="navbar navbar-expand-lg fixed-top">
-          <div className="container">
-            <a className="navbar-brand me-auto" href="#">
-              Logo
-            </a>
-            <div
-              className="offcanvas offcanvas-end"
-              tabIndex={-1}
-              id="offcanvasNavbar"
-              aria-labelledby="offcanvasNavbarLabel"
-            >
-              <div className="offcanvas-header">
-                <h5 className="offcanvas-title" id="offcanvasNavbarLabel">
-                  logo
-                </h5>
-                <button
-                  type="button"
-                  className="btn-close"
-                  data-bs-dismiss="offcanvas"
-                  aria-label="Close"
-                />
-              </div>
-              <div className="offcanvas-body">
-                <ul className="navbar-nav justify-content-center flex-grow-1 pe-3">
-                  <li className="nav-item">
-                    <a
-                      className="nav-link mx-lg-2 active "
-                      aria-current="page"
-                      href="#"
-                    >
-                      Home
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link mx-lg-2" href="#">
-                      About Us
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link mx-lg-2" href="#">
-                      Services
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link mx-lg-2" href="#">
-                      Portafolio
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link mx-lg-2" href="#">
-                      Contact Us
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <a href="#" className="loguin-buttom">
-              Login
-            </a>
-            <button
-              className="navbar-toggler pe-0"
-              type="button"
-              data-bs-toggle="offcanvas"
-              data-bs-target="#offcanvasNavbar"
-              aria-controls="offcanvasNavbar"
-              aria-label="Toggle navigation"
-            />
-            <span className="navbar-toggler-icon" />
-          </div>
-        </nav>
-        {/*End Navbar*/}
-        {/*Hero section*/}
-        <section className="hero-section">
-          <div
-            className="container d-flex align-items-center justify-content-center fs-1
-  text-white flex-colum"
+     <nav className="navbar navbar-expand-lg bg-body-tertiary">
+  <div className="container-fluid">
+    <a className="navbar-brand" href="#">
+      Museo
+    </a>
+    <button
+      className="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span className="navbar-toggler-icon" />
+    </button>
+    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+        <li className="nav-item">
+          <Link className="nav-link active" aria-current="page" to="/1">
+            Home
+          </Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link" to="2">
+           Eventos
+          </Link>
+        </li>
+        <li className="nav-item dropdown">
+          <a
+            className="nav-link dropdown-toggle"
+            href="#"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
           >
-            <h1>COLOR ARTIST BRUSH</h1>
-            <h2></h2>
-          </div>
-        </section>
-        {/*End hero section*/}
-      </>
+            Un poco más
+          </a>
+          <ul className="dropdown-menu">
+            <li>
+              <Link className="dropdown-item" to="4">
+                Artistas
+              </Link>
+            </li>
+            <li>
+              <Link className="dropdown-item" to="6">
+               Galeria
+              </Link>
+            </li>
+            <li>
+              <hr className="dropdown-divider" />
+            </li>
+            <li>
+              <a className="dropdown-item" href="#">
+                Something else here
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link " to="/4">
+            Acerca de nostros
+          </Link>
+        </li>
+      </ul>
+      <form className="d-flex" role="search">
+        <input
+          className="form-control me-2"
+          type="search"
+          placeholder="Search"
+          aria-label="Search"
+        />
+        <Link to="/3">
+        <button className="btn btn-outline-success" type="submit">
+          Login
+        </button>
+        </Link>
+      </form>
+    </div>
+  </div>
+</nav>
 
     </div>
   )
