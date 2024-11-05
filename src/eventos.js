@@ -1,4 +1,5 @@
 import './App.css';
+import { Link } from "react-router-dom"
 
 export function Eventos() {
   return (
@@ -14,7 +15,9 @@ export function Eventos() {
               <pre>Precio: $30 USD</pre>
             </p>
           
+            <Link to="/6">
             <button className="reservebutton">Reservar Ticket</button>
+            </Link>
             
           </center>
         </div>
@@ -28,7 +31,9 @@ export function Eventos() {
               <pre>Hora: 18:00</pre>
               <pre>Precio: $30 USD</pre>
             </p>
+            <Link to="/6">
             <button className="reservebutton">Reservar Ticket</button>
+            </Link>
           </center>
         </div>
 
@@ -41,7 +46,9 @@ export function Eventos() {
               <pre>Hora: 16:00</pre>
               <pre>Precio: $25 USD</pre>
             </p>
+            <Link to="/6">
             <button className="reservebutton">Reservar Ticket</button>
+            </Link>
           </center>
         </div>
       </div>
@@ -56,7 +63,9 @@ export function Eventos() {
               <pre>Hora: 19:00</pre>
               <pre>Precio: $35 USD</pre>
             </p>
+            <Link to="/6">
             <button className="reservebutton">Reservar Ticket</button>
+            </Link>
           </center>
         </div>
 
@@ -69,7 +78,9 @@ export function Eventos() {
               <pre>Hora: 20:00</pre>
               <pre>Precio: $40 USD</pre>
             </p>
+            <Link to="/6">
             <button className="reservebutton">Reservar Ticket</button>
+            </Link>
           </center>
         </div>
 
@@ -83,7 +94,9 @@ export function Eventos() {
               <pre>Precio: $30 USD</pre>
             </p>
         
+            <Link to="/6">
             <button className="reservebutton">Reservar Ticket</button>
+            </Link>
            
           </center>
         </div>

@@ -23,13 +23,13 @@ export default function App() {
         
 
         <Routes>
-        <Route path="1" element={<Carrucel/>}/>
-        <Route path="2" element={<Eventos/>}/>
-        <Route path="3" element={<LoginSignUp/>}/>
-        <Route path="Personajes" element={<Artistas/>}/>
-        <Route path="5" element={<Galeria/>}/>
-        <Route path="6" element={<Ticket/>}/>
-        <Route path="7" element={<Tienda/>}/>
+        <Route path="/1" element={<Carrucel/>}/>
+        <Route path="/2" element={<Eventos/>}/>
+        <Route path="/3" element={<LoginSignUp/>}/>
+        <Route path="/Personajes" element={<Artistas/>}/>
+        <Route path="/5" element={<Galeria/>}/>
+        <Route path="/6" element={<Ticket/>}/>
+        <Route path="/7" element={<Tienda/>}/>
         
         
 
