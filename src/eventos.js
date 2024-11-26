@@ -1,11 +1,12 @@
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from "react-router-dom"
 
 export function Eventos() {
   return (
     <>
       <div className="container2">
-        <div className="fondo" style={{backgroundImage:"url('https://historia-arte.com/_/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbSI6WyJcL2FydHdvcmtcL2ltYWdlRmlsZVwvNjA4MGIxNGVjZTQ3Ni5qcGciLCJyZXNpemVDcm9wLDYwMCwzMDAsQ1JPUF9CQUxBTkNFIl19.3MgUGALu5hKtQFSB8pY1-pPzgoX7B7QkcAxxc0XWmOs.jpg')"}}>
+        <div className="fondo1">
           <center>
             <h5>Vincent Van Gogh</h5>
             <h5>Historia</h5>
@@ -16,13 +17,13 @@ export function Eventos() {
             </p>
           
             <Link to="/6">
-            <button className="reservebutton">Reservar Ticket</button>
+            <button type="button" class="btn btn-primary btn-sm">Reservar Ticket</button>
             </Link>
             
           </center>
         </div>
 
-        <div className="fondo" style={{backgroundImage:"url('https://www.shutterstock.com/image-illustration/oil-painting-on-canvas-style-600nw-2334754381.jpg')"}}>
+        <div className="fondo2">
           <center>
             <h5>Claude Monet</h5>
             <h5>Galería</h5>
@@ -32,12 +33,12 @@ export function Eventos() {
               <pre>Precio: $30 USD</pre>
             </p>
             <Link to="/6">
-            <button className="reservebutton">Reservar Ticket</button>
+            <button type="button" class="btn btn-primary btn-sm">Reservar Ticket</button>
             </Link>
           </center>
         </div>
 
-        <div className="fondo" style={{backgroundImage:"url('https://www.1st-art-gallery.com/media/magefan_blog/Frida-Kahlo.jpg')"}}>
+        <div className="fondo3">
           <center>
             <h5>Frida Kahlo</h5>
             <h5>Historia de arte</h5>
@@ -47,14 +48,14 @@ export function Eventos() {
               <pre>Precio: $25 USD</pre>
             </p>
             <Link to="/6">
-            <button className="reservebutton">Reservar Ticket</button>
+            <button type="button" class="btn btn-primary btn-sm">Reservar Ticket</button>
             </Link>
           </center>
         </div>
       </div>
 
       <div className="container2">
-        <div className="fondo" style={{backgroundImage:"url('https://www.descubrirelarte.es/wp-content/uploads/bfi_thumb/abrir-Mona-Lisa-o2p8r5g4aiudnoq9aal64fzrwu0zbnp91rfjmhbi8k.jpg')"}}>
+        <div className="fondo4">
           <center>
             <h5>Leonardo Da Vinci</h5>
             <h5>Galería</h5>
@@ -64,12 +65,12 @@ export function Eventos() {
               <pre>Precio: $35 USD</pre>
             </p>
             <Link to="/6">
-            <button className="reservebutton">Reservar Ticket</button>
+            <button type="button" class="btn btn-primary btn-sm">Reservar Ticket</button>
             </Link>
           </center>
         </div>
 
-        <div className="fondo" style={{backgroundImage:"url('https://preview.redd.it/5ttnf70s7pr41.jpg?width=640&crop=smart&auto=webp&s=fbe6228f21ce44d1245eb784a920d7e29c45279d')"}}>
+        <div className="fondo5">
           <center>
             <h5>Salvador Dalí</h5>
             <h5>Historia</h5>
@@ -79,12 +80,12 @@ export function Eventos() {
               <pre>Precio: $40 USD</pre>
             </p>
             <Link to="/6">
-            <button className="reservebutton">Reservar Ticket</button>
+            <button type="button" class="btn btn-primary btn-sm">Reservar Ticket</button>
             </Link>
           </center>
         </div>
 
-        <div className="fondo" style={{backgroundImage:"url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-GgPk6W4xKAr3byEfeulWLAp4eNxmDPbGQg&s')"}}>
+        <div className="fondo6">
           <center>
             <h5>Pablo Picasso</h5>
             <h5>Historia de arte</h5>
@@ -95,7 +96,7 @@ export function Eventos() {
             </p>
         
             <Link to="/6">
-            <button className="reservebutton">Reservar Ticket</button>
+            <button type="button" class="btn btn-primary btn-sm">Reservar Ticket</button>
             </Link>
            
           </center>

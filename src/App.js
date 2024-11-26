@@ -6,7 +6,7 @@ import { Eventos } from "./eventos.js";
 import {LoginSignUp} from "./Components/LoginSignUp/LoginSignUp.jsx"
 import { Artistas } from "./Artistas.js";
 import { Galeria } from "./Components/Galeria/Galeria.js";
-import { Ticket } from "./Ticket.js";
+import { Ticket } from "./Components/reservaTicket/Ticket.jsx";
 import { Tienda } from "./Tienda/Tienda.js";
 
 
