@@ -10,52 +10,82 @@ import Taza from "./Taza.jpg"
 import Pendientes from "./Pendientes.jpg"
 import Funko from "./Funko.jpg"
 import Totebag from "./Totebag.jpg"
- 
+import Banner from "./Banner..png"
+import { Link } from "react-router-dom"
+import HoverableImage from "./HoverableImage";
+
+
 export function Tienda() {
   return (
     <>
-      <div className="container-fluid mt-6 text-center">
-        <div className="py-5 px-4" style={{ backgroundColor: "#19265b", color: "#fffff" }}>
-          <h1 className="text-white" >Tienda online de souvenirs de los artistas del lienzo</h1>
-          <p className="text-white">"Donde el legado artístico se transforma en recuerdos eternos."</p>
+        <div>
+          <img
+            src={Banner}
+            alt="Banner"
+            className="img-fluid"
+            style={{ width: "100%", height: "250px", objectFit: "cover" }}
+          />
         </div>
-      </div>
-      <div className="container mt-5">
-        <h2 className="text-center mb-4">Artistas</h2>
- 
+      <div className="">
+        <h2 className="text-center mb-4" style={{ paddingTop: "40px" }}>Artistas</h2>
+
         <div className="d-flex justify-content-center flex-nowrap">
           <div className="text-center mx-3">
-            <img src={Vincent} class="rounded float-start" style={{ width: "150px", height: "150px" }}></img>
-            <p>Vincent van Gogh</p>
+            <Link to="/V">
+              <HoverableImage
+                src={Vincent} className="rounded" style={{ width: "150px", height: "150px", borderRadius: "10px" }}
+              />
+            </Link>
+            <p style={{ fontFamily: "Roboto", }}>Vincent van Gogh</p>
           </div>
           <div className="text-center mx-3">
-            <img src={Leonardo} class="rounded float-start" style={{ width: "150px", height: "150px" }}></img>
-            <p>Leonardo Da Vinci</p>
+            <Link to="/L">
+              <HoverableImage
+                src={Leonardo} className="rounded" style={{ width: "150px", height: "150px", borderRadius: "10px" }}
+              />
+            </Link>
+            <p style={{ fontFamily: "Roboto", }}>Leonardo Da Vinci</p>
           </div>
           <div className="text-center mx-3">
-            <img src={Picasso} class="rounded float-start" style={{ width: "150px", height: "150px" }}></img>
-            <p>Pablo Picasso</p>
+            <Link to="/P">
+              <HoverableImage
+                src={Picasso} className="rounded" style={{ width: "150px", height: "150px", borderRadius: "10px" }}
+              />
+            </Link>
+            <p style={{ fontFamily: "Roboto", }}>Pablo Picasso</p>
           </div>
           <div className="text-center mx-3">
-            <img src={Monet} class="rounded float-start" style={{ width: "150px", height: "150px" }}></img>
-            <p>Claude Monet</p>
+            <Link to="/M">
+              <HoverableImage
+                src={Monet} className="rounded" style={{ width: "150px", height: "150px", borderRadius: "10px" }}
+              />
+            </Link>
+            <p style={{ fontFamily: "Roboto", }}>Claude Monet</p>
           </div>
           <div className="text-center mx-3">
-            <img src={Frida} class="rounded float-start" style={{ width: "150px", height: "150px" }}></img>
-            <p>Frida Kahlo</p>
+            <Link to="/F">
+              <HoverableImage
+                src={Frida} className="rounded" style={{ width: "150px", height: "150px", borderRadius: "10px" }}
+              />
+            </Link>
+            <p style={{ fontFamily: "Roboto", }}>Frida Kahlo</p>
           </div>
           <div className="text-center mx-3">
-            <img src={Dali} class="rounded float-start" style={{ width: "150px", height: "150px" }}></img>
-            <p>Salvador Dalí</p>
+            <Link to="/D">
+              <HoverableImage
+                src={Dali} className="rounded" style={{ width: "150px", height: "150px", borderRadius: "10px" }}
+              />
+            </Link>
+            <p style={{ fontFamily: "Roboto", }}>Salvador Dalí</p>
           </div>
         </div>
       </div>
-      <div className="container mt-5">
+      <div className=" mb-4">
         <h2 className="text-center mb-5">Productos favoritos</h2>
         <div className="d-flex justify-content-center flex-nowrap">
           <div className="col-mx-4 mb-4">
-            <div className="card h-100 mx-auto" style={{ width: "18rem" }}>
-              <img src={Taza} className="card-img-top img-fluid" alt="Taza" style={{ width: "500px", height: "300px"  }} />
+            <div className="card h-100 mx-auto ms-4" style={{ width: "18rem" }}>
+              <img src={Taza} className="card-img-top img-fluid" alt="Taza" style={{ width: "500px", height: "300px" }} />
               <div className="card-body text-center">
                 <h5 className="card-title">TAZA</h5>
                 <a href="#" className="btn" style={{ backgroundColor: "#19265b", color: "#fff" }}>
@@ -65,26 +95,26 @@ export function Tienda() {
             </div>
           </div>
           <div className="col-mx-3 mx-4">
-            <div className="card h-70 mx-auto" style={{ width: "18rem", objectFit: "cover" }}>
-              <img src={Pendientes} className="card-img-top img-fluid" alt="Pendientes" style={{ width: "500px", height: "300px"  }} />
+            <div className="card h-70 mx-auto ms-3" style={{ width: "18rem", objectFit: "cover" }}>
+              <img src={Pendientes} className="card-img-top img-fluid" alt="Pendientes" style={{ width: "500px", height: "300px" }} />
               <div className="card-body text-center">
                 <h5 className="card-title">PENDIENTES</h5>
-                <a href="#" className="btn" style={{ backgroundColor: "#19265b", color: "#fff" }}>Precio $15 USD</a>
+                <a href="#" className="btn" style={{ backgroundColor: "#94adfa ", color: "#000104 " }}>Precio $15 USD</a>
               </div>
             </div>
           </div>
           <div className="col-mx-3 mb-4">
-            <div className="card h-70 mx-auto" style={{ width: "18rem", objectFit: "cover" }}>
-              <img src={Funko} className="card-img-top img-fluid" alt="Funko" style={{ width: "500px", height: "300px"  }} />
+            <div className="card h-70 mx-auto ms-3" style={{ width: "18rem", objectFit: "cover" }}>
+              <img src={Funko} className="card-img-top img-fluid" alt="Funko" style={{ width: "500px", height: "300px" }} />
               <div className="card-body text-center">
                 <h5 className="card-title">FUNKO POP</h5>
-                <a href="#" className="btn" style={{ backgroundColor: "#19265b", color: "#fff" }}>Precio $25 USD</a>
+                <a href="#" className="btn" style={{ backgroundColor: "#94adfa", color: "#fff", }}>Precio $25 USD</a>
               </div>
             </div>
           </div>
           <div className="col-mx-3 mx-4">
-            <div className="card h-70 mx-auto" style={{ width: "18rem", objectFit: "cover" }}>
-              <img src={Totebag} className="card-img-top img-fluid" alt="Tote Bag" style={{ width: "500px", height: "300px"  }} />
+            <div className="card h-70 mx-auto ms-3" style={{ width: "18rem", objectFit: "cover" }}>
+              <img src={Totebag} className="card-img-top img-fluid" alt="Tote Bag" style={{ width: "500px", height: "300px" }} />
               <div className="card-body text-center">
                 <h5 className="card-title">TOTE BAG</h5>
                 <a href="#" className="btn" style={{ backgroundColor: "#19265b", color: "#fff" }}>Precio $20 USD</a>
@@ -93,7 +123,7 @@ export function Tienda() {
           </div>
         </div>
       </div>
- 
+
     </>
   );
 }
