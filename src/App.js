@@ -33,6 +33,7 @@ export default function App() {
         
 
         <Routes>
+
         <Route path="1" element={<Carrucel/>}/>
         <Route path="2" element={<Eventos/>}/>
         <Route path="3" element={<LoginSignUp/>}/>
@@ -47,6 +48,7 @@ export default function App() {
         <Route path="/F" element={<Frida/>}/>
         <Route path="/D" element={<Dali/>}/>
         
+
         
         
 
