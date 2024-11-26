@@ -39,41 +39,44 @@ export function Artistas() {
         </div>
         
         <div className="carousel-inner">
+          {/* Frida Kahlo */}
           <div className="carousel-item active">
-            <img src={imagen} className="d-block w-100" alt="..." />
+            <img src={imagen} className="d-block w-100" alt="Frida Kahlo" />
             <div className="carousel-caption d-none d-md-block">
               <h3>Frida Kahlo</h3>
               <h4>
-                Frida Kahlo fue una pintora mexicana conocida por sus autorretratos que exploran el dolor físico, la identidad, y la cultura mexicana. Su estilo único mezcla el surrealismo con elementos simbólicos de México. Tras sufrir un grave accidente en su juventud, Kahlo plasmó su lucha personal en su arte. Su relación con el muralista Diego Rivera también influyó en su vida y obra. Hoy, Frida es un ícono cultural y feminista reconocida mundialmente.
+                Frida Kahlo fue una pintora mexicana conocida por sus autorretratos que exploran el dolor físico, la identidad, y la cultura mexicana...
               </h4>
               <p>
-                <a href="none" className="btn btn-primary mt-3">Leer más</a>
+                <a href="/Frida.js" className="btn btn-primary mt-3">Leer más</a>
               </p>
             </div>
           </div>
           
+          {/* Pablo Picasso */}
           <div className="carousel-item">
-            <img src={imagen1} className="d-block w-100" alt="..." />
+            <img src={imagen1} className="d-block w-100" alt="Pablo Picasso" />
             <div className="carousel-caption d-none d-md-block">
               <h3>Pablo Picasso</h3>
               <h4>
-                Pablo Picasso fue un pintor y escultor español, conocido como uno de los artistas más influyentes del siglo XX. Nació en 1881 en Málaga y es famoso por cofundar el movimiento cubista, en el que descompuso las formas en figuras geométricas. Picasso exploró múltiples estilos a lo largo de su carrera, incluyendo el Período Azul y el Período Rosa, y creó obras emblemáticas como Les Demoiselles d'Avignon y Guernica, esta última una protesta contra los horrores de la guerra. Su creatividad y versatilidad lo convirtieron en un ícono del arte moderno.
+                Pablo Picasso fue un pintor y escultor español, conocido como uno de los artistas más influyentes del siglo XX...
               </h4>
               <p>
-                <a href="none" className="btn btn-primary mt-3">Leer más</a>
+                <a href="/Picasso.js" className="btn btn-primary mt-3">Leer más</a>
               </p>
             </div>
           </div>
           
+          {/* Vincent Van Gogh */}
           <div className="carousel-item">
-            <img src={imagen2} className="d-block w-100" alt="..." />
+            <img src={imagen2} className="d-block w-100" alt="Vincent Van Gogh" />
             <div className="carousel-caption d-none d-md-block">
               <h3>Vincent Van Gogh</h3>
               <h4>
-                Vincent van Gogh fue un pintor neerlandés del siglo XIX, conocido por su estilo postimpresionista y sus pinceladas expresivas y coloridas. Nació en 1853 y, aunque durante su vida no tuvo éxito comercial, hoy es considerado uno de los artistas más importantes de la historia. Sus obras, como La noche estrellada y Los girasoles, capturan su intensa visión emocional del mundo. Van Gogh luchó con problemas de salud mental a lo largo de su vida y produjo más de 2,000 obras en solo una década. Su arte ha dejado un legado duradero por su vibrante estilo y profundidad emocional.
+                Vincent van Gogh fue un pintor neerlandés del siglo XIX, conocido por su estilo postimpresionista y sus pinceladas expresivas...
               </h4>
               <p>
-                <a href="none" className="btn btn-primary mt-3">Leer más</a>
+                <a href="/vangogh.js" className="btn btn-primary mt-3">Leer más</a>
               </p>
             </div>
           </div>
