@@ -26,7 +26,7 @@ export function Leonardo() {
                 <img src={Taza2} className="card-img-top img-fluid" alt="Taza" style={{ width: "500px", height: "300px"  }} />
                 <div className="card-body text-center">
                   <h5 className="card-title">TAZA</h5>
-                  <a href="#" className="btn" style={{ backgroundColor: "#19265b", color: "#fff" }}>
+                  <a href="#" className="btn" style={{ backgroundColor: "#007bff", color: "#fff" }}>
                     Precio $10 USD
                   </a>
                 </div>
@@ -37,7 +37,7 @@ export function Leonardo() {
                 <img src={ Pendientes2} className="card-img-top img-fluid" alt="Pendientes" style={{ width: "500px", height: "300px"  }} />
                 <div className="card-body text-center">
                   <h5 className="card-title">PENDIENTES</h5>
-                  <a href="#" className="btn" style={{ backgroundColor: "#19265b", color: "#fff" }}>Precio $15 USD</a>
+                  <a href="#" className="btn" style={{ backgroundColor: "#007bff", color: "#fff" }}>Precio $15 USD</a>
                 </div>
               </div>
             </div>
@@ -46,7 +46,7 @@ export function Leonardo() {
                 <img src={Funko2} className="card-img-top img-fluid" alt="Funko" style={{ width: "500px", height: "300px"  }} />
                 <div className="card-body text-center">
                   <h5 className="card-title">FUNKO POP</h5>
-                  <a href="#" className="btn" style={{ backgroundColor: "#19265b", color: "#fff" }}>Precio $25 USD</a>
+                  <a href="#" className="btn" style={{ backgroundColor: "#007bff", color: "#fff" }}>Precio $25 USD</a>
                 </div>
               </div>
             </div>
@@ -55,7 +55,7 @@ export function Leonardo() {
                 <img src={Totebag2} className="card-img-top img-fluid" alt="Tote Bag" style={{ width: "500px", height: "300px"  }} />
                 <div className="card-body text-center">
                   <h5 className="card-title">TOTE BAG</h5>
-                  <a href="#" className="btn" style={{ backgroundColor: "#19265b", color: "#fff" }}>Precio $10 USD</a>
+                  <a href="#" className="btn" style={{ backgroundColor: "#007bff", color: "#fff" }}>Precio $10 USD</a>
                 </div>
               </div>
             </div>
@@ -69,7 +69,7 @@ export function Leonardo() {
                 <img src={libro2 } className="card-img-top img-fluid" alt="Taza" style={{ width: "500px", height: "300px"  }} />
                 <div className="card-body text-center">
                   <h5 className="card-title">LIBRO</h5>
-                  <a href="#" className="btn" style={{ backgroundColor: "#19265b", color: "#fff" }}>
+                  <a href="#" className="btn" style={{ backgroundColor: "#007bff", color: "#fff" }}>
                     Precio $30 USD
                   </a>
                 </div>
@@ -80,7 +80,7 @@ export function Leonardo() {
                 <img src={Camisa} className="card-img-top img-fluid" alt="Pendientes" style={{ width: "500px", height: "300px"  }} />
                 <div className="card-body text-center">
                   <h5 className="card-title">CAMISA</h5>
-                  <a href="#" className="btn" style={{ backgroundColor: "#19265b", color: "#fff" }}>Precio $15 USD</a>
+                  <a href="#" className="btn" style={{ backgroundColor: "#007bff", color: "#fff" }}>Precio $15 USD</a>
                 </div>
               </div>
             </div>
@@ -89,7 +89,7 @@ export function Leonardo() {
                 <img src={Brasalete} className="card-img-top img-fluid" alt="Funko" style={{ width: "500px", height: "300px"  }} />
                 <div className="card-body text-center">
                   <h5 className="card-title">BRASALETE</h5>
-                  <a href="#" className="btn" style={{ backgroundColor: "#19265b", color: "#fff" }}>Precio $25 USD</a>
+                  <a href="#" className="btn" style={{ backgroundColor: "#007bff", color: "#fff" }}>Precio $25 USD</a>
                 </div>
               </div>
             </div>
@@ -98,7 +98,7 @@ export function Leonardo() {
                 <img src={Escultura} className="card-img-top img-fluid" alt="Tote Bag" style={{ width: "500px", height: "300px"  }} />
                 <div className="card-body text-center">
                   <h5 className="card-title">ESCULTURA</h5>
-                  <a href="#" className="btn" style={{ backgroundColor: "#19265b", color: "#fff" }}>Precio $27 USD</a>
+                  <a href="#" className="btn" style={{ backgroundColor: "#007bff", color: "#fff" }}>Precio $27 USD</a>
                 </div>
               </div>
             </div>
@@ -112,7 +112,7 @@ export function Leonardo() {
                 <img src={collar2} className="card-img-top img-fluid" alt="Taza" style={{ width: "500px", height: "300px"  }} />
                 <div className="card-body text-center">
                   <h5 className="card-title">COLLAR</h5>
-                  <a href="#" className="btn" style={{ backgroundColor: "#19265b", color: "#fff" }}>
+                  <a href="#" className="btn" style={{ backgroundColor: "#007bff", color: "#fff" }}>
                     Precio $30 USD
                   </a>
                 </div>
@@ -123,7 +123,7 @@ export function Leonardo() {
                 <img src={Llavero2} className="card-img-top img-fluid" alt="Pendientes" style={{ width: "500px", height: "300px"  }} />
                 <div className="card-body text-center">
                   <h5 className="card-title">LLAVERO</h5>
-                  <a href="#" className="btn" style={{ backgroundColor: "#19265b", color: "#fff" }}>Precio $5 USD</a>
+                  <a href="#" className="btn" style={{ backgroundColor: "#007bff", color: "#fff" }}>Precio $5 USD</a>
                 </div>
               </div>
             </div>
@@ -132,7 +132,7 @@ export function Leonardo() {
                 <img src={Cojin} className="card-img-top img-fluid" alt="Funko" style={{ width: "500px", height: "300px"  }} />
                 <div className="card-body text-center">
                   <h5 className="card-title">COJIN</h5>
-                  <a href="#" className="btn" style={{ backgroundColor: "#19265b", color: "#fff" }}>Precio $25 USD</a>
+                  <a href="#" className="btn" style={{ backgroundColor: "#007bff", color: "#fff" }}>Precio $25 USD</a>
                 </div>
               </div>
             </div>
@@ -141,7 +141,7 @@ export function Leonardo() {
                 <img src={Cuadro} className="card-img-top img-fluid" alt="Tote Bag" style={{ width: "500px", height: "300px"  }} />
                 <div className="card-body text-center">
                   <h5 className="card-title">CUADRO</h5>
-                  <a href="#" className="btn" style={{ backgroundColor: "#19265b", color: "#fff" }}>Precio $20 USD</a>
+                  <a href="#" className="btn" style={{ backgroundColor: "#007bff", color: "#fff" }}>Precio $20 USD</a>
                 </div>
               </div>
             </div>

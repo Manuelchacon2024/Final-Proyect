@@ -26,7 +26,7 @@ export function Dali() {
                 <img src={Camisa} className="card-img-top img-fluid" alt="Taza" style={{ width: "500px", height: "300px"  }} />
                 <div className="card-body text-center">
                   <h5 className="card-title">CAMISA</h5>
-                  <a href="#" className="btn" style={{ backgroundColor: "#19265b", color: "#fff" }}>
+                  <a href="#" className="btn" style={{ backgroundColor: "#007bff", color: "#fff" }}>
                     Precio $10 USD
                   </a>
                 </div>
@@ -37,7 +37,7 @@ export function Dali() {
                 <img src={Chaqueta} className="card-img-top img-fluid" alt="Pendientes" style={{ width: "500px", height: "300px"  }} />
                 <div className="card-body text-center">
                   <h5 className="card-title">CHAQUETA</h5>
-                  <a href="#" className="btn" style={{ backgroundColor: "#19265b", color: "#fff" }}>Precio $45 USD</a>
+                  <a href="#" className="btn" style={{ backgroundColor: "#007bff", color: "#fff" }}>Precio $45 USD</a>
                 </div>
               </div>
             </div>
@@ -46,7 +46,7 @@ export function Dali() {
                 <img src={Decoracion} className="card-img-top img-fluid" alt="Funko" style={{ width: "500px", height: "300px"  }} />
                 <div className="card-body text-center">
                   <h5 className="card-title">ADORNO DECORATIVO</h5>
-                  <a href="#" className="btn" style={{ backgroundColor: "#19265b", color: "#fff" }}>Precio $35 USD</a>
+                  <a href="#" className="btn" style={{ backgroundColor: "#007bff", color: "#fff" }}>Precio $35 USD</a>
                 </div>
               </div>
             </div>
@@ -55,7 +55,7 @@ export function Dali() {
                 <img src={Decoracion6} className="card-img-top img-fluid" alt="Tote Bag" style={{ width: "500px", height: "300px"  }} />
                 <div className="card-body text-center">
                   <h5 className="card-title">ADORNO DECORATIVO</h5>
-                  <a href="#" className="btn" style={{ backgroundColor: "#19265b", color: "#fff" }}>Precio $35 USD</a>
+                  <a href="#" className="btn" style={{ backgroundColor: "#007bff", color: "#fff" }}>Precio $35 USD</a>
                 </div>
               </div>
             </div>
@@ -69,7 +69,7 @@ export function Dali() {
                 <img src={Funda} className="card-img-top img-fluid" alt="Taza" style={{ width: "500px", height: "300px"  }} />
                 <div className="card-body text-center">
                   <h5 className="card-title">FUNDA EXCLUSIVA</h5>
-                  <a href="#" className="btn" style={{ backgroundColor: "#19265b", color: "#fff" }}>
+                  <a href="#" className="btn" style={{ backgroundColor: "#007bff", color: "#fff" }}>
                     Precio $25 USD
                   </a>
                 </div>
@@ -80,7 +80,7 @@ export function Dali() {
                 <img src={Fundas} className="card-img-top img-fluid" alt="Pendientes" style={{ width: "500px", height: "300px"  }} />
                 <div className="card-body text-center">
                   <h5 className="card-title">FUNDAS</h5>
-                  <a href="#" className="btn" style={{ backgroundColor: "#19265b", color: "#fff" }}>Precio $15 USD</a>
+                  <a href="#" className="btn" style={{ backgroundColor: "#007bff", color: "#fff" }}>Precio $15 USD</a>
                 </div>
               </div>
             </div>
@@ -89,7 +89,7 @@ export function Dali() {
                 <img src={Funko} className="card-img-top img-fluid" alt="Funko" style={{ width: "500px", height: "300px"  }} />
                 <div className="card-body text-center">
                   <h5 className="card-title">FUNKO POP</h5>
-                  <a href="#" className="btn" style={{ backgroundColor: "#19265b", color: "#fff" }}>Precio $25 USD</a>
+                  <a href="#" className="btn" style={{ backgroundColor: "#007bff", color: "#fff" }}>Precio $25 USD</a>
                 </div>
               </div>
             </div>
@@ -98,7 +98,7 @@ export function Dali() {
                 <img src={Gabacha} className="card-img-top img-fluid" alt="Tote Bag" style={{ width: "500px", height: "300px"  }} />
                 <div className="card-body text-center">
                   <h5 className="card-title">GABACHA</h5>
-                  <a href="#" className="btn" style={{ backgroundColor: "#19265b", color: "#fff" }}>Precio $80 USD</a>
+                  <a href="#" className="btn" style={{ backgroundColor: "#007bff", color: "#fff" }}>Precio $80 USD</a>
                 </div>
               </div>
             </div>
@@ -112,7 +112,7 @@ export function Dali() {
                 <img src={Reloj} className="card-img-top img-fluid" alt="Taza" style={{ width: "500px", height: "300px"  }} />
                 <div className="card-body text-center">
                   <h5 className="card-title">RELOJ</h5>
-                  <a href="#" className="btn" style={{ backgroundColor: "#19265b", color: "#fff" }}>
+                  <a href="#" className="btn" style={{ backgroundColor: "#007bff", color: "#fff" }}>
                     Precio $30 USD
                   </a>
                 </div>
@@ -123,7 +123,7 @@ export function Dali() {
                 <img src={Termo} className="card-img-top img-fluid" alt="Pendientes" style={{ width: "500px", height: "300px"  }} />
                 <div className="card-body text-center">
                   <h5 className="card-title">TERMO</h5>
-                  <a href="#" className="btn" style={{ backgroundColor: "#19265b", color: "#fff" }}>Precio $25 USD</a>
+                  <a href="#" className="btn" style={{ backgroundColor: "#007bff", color: "#fff" }}>Precio $25 USD</a>
                 </div>
               </div>
             </div>
@@ -132,7 +132,7 @@ export function Dali() {
                 <img src={Totebag} className="card-img-top img-fluid" alt="Funko" style={{ width: "500px", height: "300px"  }} />
                 <div className="card-body text-center">
                   <h5 className="card-title">TOTE BAG</h5>
-                  <a href="#" className="btn" style={{ backgroundColor: "#19265b", color: "#fff" }}>Precio $15 USD</a>
+                  <a href="#" className="btn" style={{ backgroundColor: "#007bff", color: "#fff" }}>Precio $15 USD</a>
                 </div>
               </div>
             </div>
@@ -141,7 +141,7 @@ export function Dali() {
                 <img src={Zapatos} className="card-img-top img-fluid" alt="Tote Bag" style={{ width: "500px", height: "300px"  }} />
                 <div className="card-body text-center">
                   <h5 className="card-title">ZAPATOS</h5>
-                  <a href="#" className="btn" style={{ backgroundColor: "#19265b", color: "#fff" }}>Precio $50 USD</a>
+                  <a href="#" className="btn" style={{ backgroundColor: "#007bff", color: "#fff" }}>Precio $50 USD</a>
                 </div>
               </div>
             </div>

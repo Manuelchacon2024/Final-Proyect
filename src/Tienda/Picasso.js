@@ -26,7 +26,7 @@ export function Picasso() {
                 <img src={Agenda} className="card-img-top img-fluid" alt="Taza" style={{ width: "500px", height: "300px"  }} />
                 <div className="card-body text-center">
                   <h5 className="card-title">AGENDA</h5>
-                  <a href="#" className="btn" style={{ backgroundColor: "#19265b", color: "#fff" }}>
+                  <a href="#" className="btn" style={{ backgroundColor: "#007bff", color: "#fff" }}>
                     Precio $10 USD
                   </a>
                 </div>
@@ -37,7 +37,7 @@ export function Picasso() {
                 <img src={Bandeja} className="card-img-top img-fluid" alt="Pendientes" style={{ width: "500px", height: "300px"  }} />
                 <div className="card-body text-center">
                   <h5 className="card-title">PLATO DE JOYERIA</h5>
-                  <a href="#" className="btn" style={{ backgroundColor: "#19265b", color: "#fff" }}>Precio $25 USD</a>
+                  <a href="#" className="btn" style={{ backgroundColor: "#007bff", color: "#fff" }}>Precio $25 USD</a>
                 </div>
               </div>
             </div>
@@ -46,7 +46,7 @@ export function Picasso() {
                 <img src={Camisa} className="card-img-top img-fluid" alt="Funko" style={{ width: "500px", height: "300px"  }} />
                 <div className="card-body text-center">
                   <h5 className="card-title">CAMISA</h5>
-                  <a href="#" className="btn" style={{ backgroundColor: "#19265b", color: "#fff" }}>Precio $18 USD</a>
+                  <a href="#" className="btn" style={{ backgroundColor: "#007bff", color: "#fff" }}>Precio $18 USD</a>
                 </div>
               </div>
             </div>
@@ -55,7 +55,7 @@ export function Picasso() {
                 <img src={Ceramica} className="card-img-top img-fluid" alt="Tote Bag" style={{ width: "500px", height: "300px"  }} />
                 <div className="card-body text-center">
                   <h5 className="card-title">FIGURA DE CERAMICA</h5>
-                  <a href="#" className="btn" style={{ backgroundColor: "#19265b", color: "#fff" }}>Precio $40 USD</a>
+                  <a href="#" className="btn" style={{ backgroundColor: "#007bff", color: "#fff" }}>Precio $40 USD</a>
                 </div>
               </div>
             </div>
@@ -69,7 +69,7 @@ export function Picasso() {
                 <img src={Cuadro} className="card-img-top img-fluid" alt="Taza" style={{ width: "500px", height: "300px"  }} />
                 <div className="card-body text-center">
                   <h5 className="card-title">CUADRO</h5>
-                  <a href="#" className="btn" style={{ backgroundColor: "#19265b", color: "#fff" }}>
+                  <a href="#" className="btn" style={{ backgroundColor: "#007bff", color: "#fff" }}>
                     Precio $24 USD
                   </a>
                 </div>
@@ -80,7 +80,7 @@ export function Picasso() {
                 <img src={Funda} className="card-img-top img-fluid" alt="Pendientes" style={{ width: "500px", height: "300px"  }} />
                 <div className="card-body text-center">
                   <h5 className="card-title">FUNDA</h5>
-                  <a href="#" className="btn" style={{ backgroundColor: "#19265b", color: "#fff" }}>Precio $15 USD</a>
+                  <a href="#" className="btn" style={{ backgroundColor: "#007bff", color: "#fff" }}>Precio $15 USD</a>
                 </div>
               </div>
             </div>
@@ -89,7 +89,7 @@ export function Picasso() {
                 <img src={Hoodie} className="card-img-top img-fluid" alt="Funko" style={{ width: "500px", height: "300px"  }} />
                 <div className="card-body text-center">
                   <h5 className="card-title">HOODIE</h5>
-                  <a href="#" className="btn" style={{ backgroundColor: "#19265b", color: "#fff" }}>Precio $25 USD</a>
+                  <a href="#" className="btn" style={{ backgroundColor: "#007bff", color: "#fff" }}>Precio $25 USD</a>
                 </div>
               </div>
             </div>
@@ -98,7 +98,7 @@ export function Picasso() {
                 <img src={Gorra} className="card-img-top img-fluid" alt="Tote Bag" style={{ width: "500px", height: "300px"  }} />
                 <div className="card-body text-center">
                   <h5 className="card-title">GORRA</h5>
-                  <a href="#" className="btn" style={{ backgroundColor: "#19265b", color: "#fff" }}>Precio $20 USD</a>
+                  <a href="#" className="btn" style={{ backgroundColor: "#007bff", color: "#fff" }}>Precio $20 USD</a>
                 </div>
               </div>
             </div>
@@ -112,7 +112,7 @@ export function Picasso() {
                 <img src={Jaron} className="card-img-top img-fluid" alt="Taza" style={{ width: "500px", height: "300px"  }} />
                 <div className="card-body text-center">
                   <h5 className="card-title">JARON</h5>
-                  <a href="#" className="btn" style={{ backgroundColor: "#19265b", color: "#fff" }}>
+                  <a href="#" className="btn" style={{ backgroundColor: "#007bff", color: "#fff" }}>
                     Precio $28 USD
                   </a>
                 </div>
@@ -123,7 +123,7 @@ export function Picasso() {
                 <img src={Laptop} className="card-img-top img-fluid" alt="Pendientes" style={{ width: "500px", height: "300px"  }} />
                 <div className="card-body text-center">
                   <h5 className="card-title">FUNDA DE LAPTOP</h5>
-                  <a href="#" className="btn" style={{ backgroundColor: "#19265b", color: "#fff" }}>Precio $30 USD</a>
+                  <a href="#" className="btn" style={{ backgroundColor: "#007bff", color: "#fff" }}>Precio $30 USD</a>
                 </div>
               </div>
             </div>
@@ -132,7 +132,7 @@ export function Picasso() {
                 <img src={Llavero} className="card-img-top img-fluid" alt="Funko" style={{ width: "500px", height: "300px"  }} />
                 <div className="card-body text-center">
                   <h5 className="card-title">LLAVER</h5>
-                  <a href="#" className="btn" style={{ backgroundColor: "#19265b", color: "#fff" }}>Precio $5 USD</a>
+                  <a href="#" className="btn" style={{ backgroundColor: "#007bff", color: "#fff" }}>Precio $5 USD</a>
                 </div>
               </div>
             </div>
@@ -141,7 +141,7 @@ export function Picasso() {
                 <img src={Termo} className="card-img-top img-fluid" alt="Tote Bag" style={{ width: "500px", height: "300px"  }} />
                 <div className="card-body text-center">
                   <h5 className="card-title">TERMO</h5>
-                  <a href="#" className="btn" style={{ backgroundColor: "#19265b", color: "#fff" }}>Precio $25 USD</a>
+                  <a href="#" className="btn" style={{ backgroundColor: "#007bff", color: "#fff" }}>Precio $25 USD</a>
                 </div>
               </div>
             </div>
