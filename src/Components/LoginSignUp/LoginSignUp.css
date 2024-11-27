@@ -1,27 +1,31 @@
+body {
+    background-image: url("/src/Components/Assets/10.png"); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
 
-
-.container{
+.container {
     display: flex;
     flex-direction: column;
     margin: auto;
     margin-top: 200px;
     width: 600px;
-    background: rgba(243, 230, 230, 0.6);
+    background: rgba(243, 230, 230, 0.6); 
     padding-bottom: 30px;
     border-radius: 20px;
 }
-
 .spinner-overlay {
     position: fixed;
     top: 0;
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-color: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente */
+    background-color: rgba(255, 255, 255, 0.8); 
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: 1000; /* Para asegurarse de que esté encima de otros elementos */
+    z-index: 1000; 
   }
   
 
