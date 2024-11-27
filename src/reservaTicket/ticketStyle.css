@@ -97,10 +97,15 @@
   cursor: pointer;
 }
 
-body {
-  background-image: url("../Assets2/vangoghart.jpg");
+.fondo-ticket {
+  background-image: url('./Assets2/vangoghart.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  width: 100%;
   min-height: 100vh;
+  margin-top: -70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
