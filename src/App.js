@@ -7,7 +7,7 @@ import {LoginSignUp} from "./Components/LoginSignUp/LoginSignUp.jsx"
 import { Artistas } from "./Artistas.js";
 import { Galeria } from "./Components/Galeria/Galeria.js";
 import { Ticket } from "./reservaTicket/Ticket.jsx";
-import { Tienda } from "./Tienda/Tienda.js";
+import { Tienda } from "./tienda/Tienda.js";
 
 
 
