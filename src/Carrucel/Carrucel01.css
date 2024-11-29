@@ -1,0 +1,50 @@
+.carousel-item img {
+  object-fit: cover;
+  height: 100vh;
+}
+.carousel-caption-overlay {
+  background-color: rgba(0, 0, 0, 0.7); /* Fondo más oscuro */
+  padding: 40px; /* Más espacio alrededor del texto */
+  border-radius: 20px; /* Bordes redondeados */
+  max-width: 90%; /* Ajusta el ancho máximo */
+  
+  position: absolute; /* Necesario para el posicionamiento absoluto */
+  top: 0; /* Coloca el contenedor al 50% de la altura de la imagen */
+  left: 50%; /* Centrado horizontalmente */
+  transform: translate(-50%, -50%); /* Ajusta el centro exacto tanto vertical como horizontal */
+  margin-top: -25%; 
+  width: 80%; 
+}
+
+/* Ajuste de la tipografía */
+.carousel-caption h5 {
+  font-size: 3rem; /* Aumenta el tamaño del título */
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase; /* Haz el título en mayúsculas */
+}
+
+.carousel-caption p {
+  font-size: 1.25rem; /* Ajusta el tamaño del párrafo */
+  color: white;
+  line-height: 1.5; /* Mejora la legibilidad */
+}
+
+
+.carousel-indicators button {
+  background-color: rgba(255, 255, 255, 0.5); /* Color de los indicadores */
+}
+
+.carousel-indicators .active {
+  background-color: #fff; /* Indicador activo */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #fff; /* Color de los controles */
+}
+
+  
+  
+  
+  

@@ -1,24 +1,43 @@
-import "bootstrap/dist/css/bootstrap.min.css"
-import "bootstrap/dist/js/bootstrap.bundle.min.js"
+import React, { useState } from 'react';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import Vincent from "./Vincent.jpg";
 import Leonardo from "./Leonardo.jpg";
 import Picasso from "./picasso.jpg";
 import Monet from "./Monet.jpg";
 import Frida from "./Frida.jpg";
 import Dali from "./Dali.jpg";
-import Taza from "./Taza.jpg"
-import Pendientes from "./Pendientes.jpg"
-import Funko from "./Funko.jpg"
-import Totebag from "./Totebag.jpg"
-import Banner from "./Banner.jpg"
-import { Link } from "react-router-dom"
+import Taza from "./Taza.jpg";
+import Pendientes from "./Pendientes.jpg";
+import Funko from "./Funko.jpg";
+import Totebag from "./Totebag.jpg";
+import Banner from "./Banner.jpg";
+import { Link } from "react-router-dom";
 import HoverableImage from "./HoverableImage";
+import { Elements } from '@stripe/react-stripe-js';
+import { loadStripe } from '@stripe/stripe-js';
+import CheckoutForm from './CheckoutForm';
 
+const stripePromise = loadStripe('tu_clave_publica_de_stripe');
 
 export function Tienda() {
+  const [showCheckout, setShowCheckout] = useState({
+    taza: false,
+    pendientes: false,
+    funko: false,
+    totebag: false,
+  });
+
+  const handleShowCheckout = (product) => {
+    setShowCheckout((prevState) => ({
+      ...prevState,
+      [product]: !prevState[product],
+    }));
+  };
+
   return (
     <>
-     <div>
+      <div>
         <img
           src={Banner}
           alt="Banner"
@@ -26,7 +45,7 @@ export function Tienda() {
           style={{ width: "100%", height: "250px", objectFit: "cover" }}
         />
       </div>
-      <div className="container mt-5">
+      <div className="">
         <h2 className="text-center mb-4" style={{ paddingTop: "50px" }}>Artistas</h2>
 
         <div className="d-flex justify-content-center flex-nowrap">
@@ -80,7 +99,7 @@ export function Tienda() {
           </div>
         </div>
       </div>
-      <div className=" mb-4">
+      <div className="mb-4">
         <h2 className="text-center mb-5">Productos favoritos</h2>
         <div className="d-flex justify-content-center flex-nowrap">
           <div className="col-mx-4 mb-4">
@@ -88,9 +107,14 @@ export function Tienda() {
               <img src={Taza} className="card-img-top img-fluid" alt="Taza" style={{ width: "500px", height: "300px" }} />
               <div className="card-body text-center">
                 <h5 className="card-title">TAZA</h5>
-                <a href="#" className="btn" style={{ backgroundColor: "#007bff", color: "#fff" }}>
-                  Precio $10 USD
-                </a>
+                <button onClick={() => handleShowCheckout('taza')} className="btn" style={{ backgroundColor: "#007bff", color: "#fff", marginBottom: "10px" }}>
+                Precio $15 USD
+                </button>
+                {showCheckout.taza && (
+                  <Elements stripe={stripePromise}>
+                    <CheckoutForm />
+                  </Elements>
+                )}
               </div>
             </div>
           </div>
@@ -99,7 +123,13 @@ export function Tienda() {
               <img src={Pendientes} className="card-img-top img-fluid" alt="Pendientes" style={{ width: "500px", height: "300px" }} />
               <div className="card-body text-center">
                 <h5 className="card-title">PENDIENTES</h5>
-                <a href="#" className="btn" style={{ backgroundColor: "#007bff ", color: "#FFF" }}>Precio $15 USD</a>
+                <button onClick={() => handleShowCheckout('pendientes')} className="btn" style={{ backgroundColor: "#007bff", color: "#fff", marginBottom: "10px" }}>
+                Precio $10 USD                </button>
+                {showCheckout.pendientes && (
+                  <Elements stripe={stripePromise}>
+                    <CheckoutForm />
+                  </Elements>
+                )}
               </div>
             </div>
           </div>
@@ -108,7 +138,14 @@ export function Tienda() {
               <img src={Funko} className="card-img-top img-fluid" alt="Funko" style={{ width: "500px", height: "300px" }} />
               <div className="card-body text-center">
                 <h5 className="card-title">FUNKO POP</h5>
-                <a href="#" className="btn" style={{ backgroundColor: "#007bff", color: "#fff", }}>Precio $25 USD</a>
+                <button onClick={() => handleShowCheckout('funko')} className="btn" style={{ backgroundColor: "#007bff", color: "#fff", marginBottom: "10px" }}>
+                Precio $25 USD
+                </button>
+                {showCheckout.funko && (
+                  <Elements stripe={stripePromise}>
+                    <CheckoutForm />
+                  </Elements>
+                )}
               </div>
             </div>
           </div>
@@ -117,15 +154,19 @@ export function Tienda() {
               <img src={Totebag} className="card-img-top img-fluid" alt="Tote Bag" style={{ width: "500px", height: "300px" }} />
               <div className="card-body text-center">
                 <h5 className="card-title">TOTE BAG</h5>
-                <a href="#" className="btn" style={{ backgroundColor: "#007bff", color: "#fff" }}>Precio $20 USD</a>
+                <button onClick={() => handleShowCheckout('totebag')} className="btn" style={{ backgroundColor: "#007bff", color: "#fff", marginBottom: "10px" }}>
+                  Precio $15 USD
+                </button>
+                {showCheckout.totebag && (
+                  <Elements stripe={stripePromise}>
+                    <CheckoutForm />
+                  </Elements>
+                )}
               </div>
             </div>
           </div>
         </div>
       </div>
-      
-
-
     </>
   );
 }

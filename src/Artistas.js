@@ -3,6 +3,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import imagen from "./Frida.png";
 import imagen1 from "./Picasso.png";
 import imagen2 from "./vg.png";
+import { Link } from "react-router-dom"
 
 export function Artistas() {
   return (
@@ -47,7 +48,8 @@ export function Artistas() {
                 Frida Kahlo fue una pintora mexicana conocida por sus autorretratos que exploran el dolor físico, la identidad, y la cultura mexicana. Su estilo único mezcla el surrealismo con elementos simbólicos de México. Tras sufrir un grave accidente en su juventud, Kahlo plasmó su lucha personal en su arte. Su relación con el muralista Diego Rivera también influyó en su vida y obra. Hoy, Frida es un ícono cultural y feminista reconocida mundialmente.
               </h4>
               <p>
-                <a href="none" className="btn btn-primary mt-3">Leer más</a>
+                
+              <Link to="/frida" className="btn btn-primary mt-3">Leer más</Link>
               </p>
             </div>
           </div>
@@ -60,7 +62,7 @@ export function Artistas() {
                 Pablo Picasso fue un pintor y escultor español, conocido como uno de los artistas más influyentes del siglo XX. Nació en 1881 en Málaga y es famoso por cofundar el movimiento cubista, en el que descompuso las formas en figuras geométricas. Picasso exploró múltiples estilos a lo largo de su carrera, incluyendo el Período Azul y el Período Rosa, y creó obras emblemáticas como Les Demoiselles d'Avignon y Guernica, esta última una protesta contra los horrores de la guerra. Su creatividad y versatilidad lo convirtieron en un ícono del arte moderno.
               </h4>
               <p>
-                <a href="none" className="btn btn-primary mt-3">Leer más</a>
+              <Link to="/picasso" className="btn btn-primary mt-3">Leer más</Link>
               </p>
             </div>
           </div>
@@ -73,7 +75,8 @@ export function Artistas() {
                 Vincent van Gogh fue un pintor neerlandés del siglo XIX, conocido por su estilo postimpresionista y sus pinceladas expresivas y coloridas. Nació en 1853 y, aunque durante su vida no tuvo éxito comercial, hoy es considerado uno de los artistas más importantes de la historia. Sus obras, como La noche estrellada y Los girasoles, capturan su intensa visión emocional del mundo. Van Gogh luchó con problemas de salud mental a lo largo de su vida y produjo más de 2,000 obras en solo una década. Su arte ha dejado un legado duradero por su vibrante estilo y profundidad emocional.
               </h4>
               <p>
-                <a href="none" className="btn btn-primary mt-3">Leer más</a>
+                
+              <Link to="/Vango" className="btn btn-primary mt-3">Leer más</Link>
               </p>
             </div>
           </div>
