@@ -11,7 +11,7 @@ export function Carrucel01() {
         id="carouselE1"
         className="carousel slide carousel-fade"
         data-bs-ride="carousel"
-        data-bs-interval="4000" // Cambia la imagen automáticamente cada 3 segundos
+        data-bs-interval="4000" 
       >
         <div className="carousel-indicators">
           <button
